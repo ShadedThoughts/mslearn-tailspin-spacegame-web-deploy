@@ -27,6 +27,8 @@ stages:
     - task: Npm@1
       displayName: 'Run npm install'
       inputs:
+        command: 'install'
+        workingDir: '$(Build.SourcesDirectory)/*.json'
         verbose: false
 
     - script: './node_modules/.bin/node-sass $(wwwrootDir) --output $(wwwrootDir)'
