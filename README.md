@@ -1,3 +1,4 @@
+[![Build Status](https://dev.azure.com/dami0067/IaC-InfrastructureAsCode/_apis/build/status%2FShadedThoughts.mslearn-tailspin-spacegame-web-deploy?branchName=release-pipeline)](https://dev.azure.com/dami0067/IaC-InfrastructureAsCode/_build/latest?definitionId=18&branchName=release-pipeline)
 
 ## Contributing
 
