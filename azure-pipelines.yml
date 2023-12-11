@@ -81,7 +81,7 @@ stages:
       vmImage: 'ubuntu-20.04'
     environment: Dev-SpaceGameApp
     variables:
-    - group: Release
+    - group: IaC_Pipeline_Variable
     strategy:
       runOnce:
         deploy:
